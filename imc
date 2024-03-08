@@ -1,0 +1,8 @@
+void main() {
+  String nome = 'Mercio';
+  int kg = 60;
+  double alt = 1.83;
+  double imc = (kg / (alt * alt));
+  print("A média do aluno ${nome} foi ${imc.toStringAsFixed(2)}");
+  
+}
